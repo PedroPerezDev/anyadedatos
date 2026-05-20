@@ -12,3 +12,10 @@ export interface Persona {
   edad: number | null;
   created_at: string;
 }
+
+export interface Animal {
+  id: string;
+  nombre: string;
+  edad: number;
+  created_at: string;
+}
